@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize music
     function initMusic() {
       bgMusic = document.createElement('audio');
-      bgMusic.src = 'https://cdnjs.cloudflare.com/ajax/libs/SoundJS/1.0.2/soundjs.min.js'; // Replace with actual music URL when available
+      bgMusic.src = 'audio/baby.mp3'; // Replace with actual music URL when available
       bgMusic.loop = true;
       bgMusic.volume = 0.5;
       document.body.appendChild(bgMusic);
